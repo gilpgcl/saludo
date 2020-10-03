@@ -1,4 +1,14 @@
-const { ImplCtrlSaludo } = require("./ImplCtrlSaludo");
+// const { ImplCtrlSaludo } = require("./ImplCtrlSaludo");
+class ImplCtrlSaludo {
+  /** @param {string} nombre */
+  async calculaSaludo(nombre) {
+    const nombreSinEspacios = nombre?.trim();
+    if (!nombreSinEspacios) {
+      throw new Error("Falta proporcionar el nombre.");
+    }
+    return `Hola ${nombreSinEspacios}.`;
+  }
+}
 /**@type {import("../js/CtrlSaludo").TipoCtrlSaludo} */
 const ctrlSaludo = new ImplCtrlSaludo();
 exports.handler = async event => {
