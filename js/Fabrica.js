@@ -6,9 +6,4 @@ export class Fabrica {
   get ctrlSaludo() {
     return new ProxyCtrlSaludo();
   }
-}export class Fabrica {
-  /** @returns {CtrlSaludo} */
-  get ctrlSaludo() {
-    return new ProxyCtrlSaludo();
-  }
 }
