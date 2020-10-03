@@ -1,5 +1,10 @@
 body {
-  font-family: sans-serif
+  font-family: sans-serif;
+  text-align: center;
+}
+
+form {
+  display: block;
 }
 
 p>label>* {
@@ -8,7 +13,7 @@ p>label>* {
 
 mi-footer {
   display: block;
-  margin: 2rem 0;
+  margin: 1rem 0;
   font-size: small;
   text-align: center;
 }
