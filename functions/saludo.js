@@ -1,4 +1,4 @@
-const { ImplCtrlSaludo } = require("./imp/ImplCtrlSaludo");
+const { ImplCtrlSaludo } = require("./impl/ImplCtrlSaludo");
 /**@type {import("../js/CtrlSaludo").TipoCtrlSaludo} */
 const ctrlSaludo = new ImplCtrlSaludo();
 exports.handler = async event => {
