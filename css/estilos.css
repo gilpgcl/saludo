@@ -4,7 +4,7 @@ body {
 }
 
 form {
-  display: block;
+  display: inline-block;
 }
 
 p>label>* {
