@@ -1,4 +1,4 @@
-import { CtrlSaludo } from "./CtrlSaludo";
+import { CtrlSaludo } from "./CtrlSaludo.js";
 
 /** @implements {CtrlSaludo} */
 export class ProxyCtrlSaludo {
