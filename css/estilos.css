@@ -8,6 +8,7 @@ p>label>* {
 
 mi-footer {
   display: block;
+  margin: 2rem 0;
   font-size: small;
   text-align: center;
 }
