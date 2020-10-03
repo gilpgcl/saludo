@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif
+}
+
+p>label>* {
+  display: block;
+}
+
+mi-footer {
+  display: block;
+  font-size: small;
+  text-align: center;
+}
