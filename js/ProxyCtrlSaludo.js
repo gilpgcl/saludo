@@ -4,7 +4,7 @@ import { CtrlSaludo } from "./CtrlSaludo";
 export class ProxyCtrlSaludo {
   /** @param {string} nombre */
   async calculaSaludo(nombre) {
-    const resp = await fetch("/.netlify/functions/ServicioSaludo?nombre="
+    const resp = await fetch("/.netlify/functions/saludo?nombre="
       + encodeURIComponent(nombre));
     if (resp.ok) {
       return await resp.text();
